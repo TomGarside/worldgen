@@ -1,0 +1,5 @@
+objects : [
+{name:"starname", probability:"odds out of 100 of occurence", Temporate:"size of temporate zone in AU"}
+
+
+]

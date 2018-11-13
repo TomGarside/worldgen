@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14EB83B2192018C00E05FD1 /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A14EB83A2192018C00E05FD1 /* json11.cpp */; };
 		A1795E14216EF2B200695595 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1795E13216EF2B200695595 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A14EB8392192018C00E05FD1 /* json11.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json11.hpp; sourceTree = "<group>"; };
+		A14EB83A2192018C00E05FD1 /* json11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json11.cpp; sourceTree = "<group>"; };
+		A14EB83C219B849400E05FD1 /* stars.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = stars.txt; sourceTree = "<group>"; };
 		A1795E10216EF2B200695595 /* worldgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = worldgen; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1795E13216EF2B200695595 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1795E1A216EF48D00695595 /* worldgen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = worldgen.h; sourceTree = "<group>"; };
+		A1795E1B216F086E00695595 /* world.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = world.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				A1795E13216EF2B200695595 /* main.cpp */,
+				A1795E1A216EF48D00695595 /* worldgen.h */,
+				A1795E1B216F086E00695595 /* world.h */,
+				A14EB83A2192018C00E05FD1 /* json11.cpp */,
+				A14EB8392192018C00E05FD1 /* json11.hpp */,
+				A14EB83C219B849400E05FD1 /* stars.txt */,
 			);
 			path = worldgen;
 			sourceTree = "<group>";
@@ -119,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1795E14216EF2B200695595 /* main.cpp in Sources */,
+				A14EB83B2192018C00E05FD1 /* json11.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
