@@ -8,17 +8,27 @@
 
 #include <iostream>
 #include "json11.hpp"
+#include "worldgen.h"
+#include <string>
+#include <sstream>
+#include <fstream>
+
+
+
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+
+    std::ifstream inFile;
+    inFile.open("/Users/tom_garside/Dropbox/worldgen/worldgen/Text.json");//open the input file
+    std::stringstream strStream;
+    strStream << inFile.rdbuf();//read the file
+    std::string str = strStream.str();//str holds the content of the file
     
-    json11::Json my_json = json11::Json::object {
-        { "key1", "value1" },
-        { "key2", false },
-        { "key3", json11::Json::array { 1, 2, 3 } },
-    };
+    gen_world generator = *new gen_world(str);
     
-    std::cout<<my_json.dump()<<std::endl;
-    
+    //std::cout<<generator.getOutput().dump()<<" "<<generator.geterr()<<std::endl;
+   
+   
     return 0;
 }

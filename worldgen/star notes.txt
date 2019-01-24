@@ -1,0 +1,12 @@
+//
+//  star notes
+//  Text
+//  ----------------------------------
+//  Developed with embedXcode
+//
+//  Project 	worldgen
+//  Created by 	tom garside on 13/11/18
+//  Copyright 	© 2018 tom garside
+//  License	<#license#>
+//
+
