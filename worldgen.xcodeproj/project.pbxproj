@@ -30,7 +30,6 @@
 		A14EB8392192018C00E05FD1 /* json11.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json11.hpp; sourceTree = "<group>"; };
 		A14EB83A2192018C00E05FD1 /* json11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json11.cpp; sourceTree = "<group>"; };
 		A14EB83C219B849400E05FD1 /* stars.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = stars.txt; sourceTree = "<group>"; };
-		A14EB83D219B947000E05FD1 /* star notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "star notes.txt"; sourceTree = "<group>"; };
 		A1795E10216EF2B200695595 /* worldgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = worldgen; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1795E13216EF2B200695595 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A1795E1A216EF48D00695595 /* worldgen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = worldgen.h; sourceTree = "<group>"; };
@@ -73,7 +72,6 @@
 				A14EB8392192018C00E05FD1 /* json11.hpp */,
 				A1070C2321F9296E00AC8E94 /* Text.json */,
 				A14EB83C219B849400E05FD1 /* stars.txt */,
-				A14EB83D219B947000E05FD1 /* star notes.txt */,
 			);
 			path = worldgen;
 			sourceTree = "<group>";

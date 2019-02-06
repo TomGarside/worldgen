@@ -1,7 +1,7 @@
 {
     "label1": {
         "default": "probmap1",
-        "dependentVars": [],
+        "dependent": [],
         "probmap1": [{
             "name": "name1",
             "prob": 50,
@@ -16,7 +16,8 @@
     },
     "label2": {
         "default": "probmap1",
-        "dependent": ["label1"],
+        "dependent": ["probmapX"],
+        
         "probmap1": [{
             "name": "name3",
             "prob": 50,
@@ -26,19 +27,18 @@
             "name": "name4",
             "prob": 50,
             "misc": {}
-        }
-        ],
-        "name1": [{
+        }],
+        "probmapX": [{
             "name": "name3",
-            "prob": 60,
+            "prob": 50,
             "misc": {}
         },
         {
             "name": "name4",
-            "prob": 40,
+            "prob": 50,
             "misc": {}
-        }
-        ]
+        }]
+        
         
     }
 }
