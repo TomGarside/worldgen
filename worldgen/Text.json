@@ -1,44 +1,449 @@
+
 {
-    "label1": {
-        "default": "probmap1",
-        "dependent": [],
-        "probmap1": [{
-            "name": "name1",
-            "prob": 50,
-            "misc": {}
+"Group1":{
+     "default":"Group1",
+     "dependent":[
+
+     ],
+     "Group1":[
+        {
+           "name":"Followers of Cthulu",
+           "prob":6.25,
+           "misc":{}
         },
         {
-            "name": "name2",
-            "prob": 50,
-            "misc": {}
+           "name":"Nazi Remenants",
+           "prob":6.25,
+           "misc":{}
+        },
+        {
+           "name":"Evil AI constructs",
+           "prob":6.25,
+           "misc":{}
+        },
+        {
+           "name":"Aliens",
+           "prob":6.25,
+           "misc":{}
         }
-        ]
-    },
-    "label2": {
-        "default": "probmap1",
-        "dependent": ["probmapX"],
-        
-        "probmap1": [{
-            "name": "name3",
-            "prob": 50,
-            "misc": {}
+        ,
+        {
+           "name":"Lizard People",
+           "prob":6.25,
+           "misc":{}
+        }
+        ,
+        {
+           "name":"Vampires",
+           "prob":6.25,
+           "misc":{}
         },
         {
-            "name": "name4",
-            "prob": 50,
-            "misc": {}
-        }],
-        "probmapX": [{
-            "name": "name3",
-            "prob": 50,
-            "misc": {}
+           "name":"Werewolves",
+           "prob":6.25,
+           "misc":{}
         },
         {
-            "name": "name4",
-            "prob": 50,
-            "misc": {}
-        }]
-        
-        
-    }
+           "name":"The Bavarian Iluminati",
+           "prob":6.25,
+           "misc":{}
+        },
+        {
+           "name":"Sentient Trees",
+           "prob":6.25,
+           "misc":{}
+        },
+        {
+           "name":"The New World Order",
+           "prob":6.25,
+           "misc":{}
+        },
+        {
+           "name":"Globe Earth Belivers",
+           "prob":6.25,
+           "misc":{}
+        },
+        {
+           "name":"Trans-Dimensional Beings",
+           "prob":6.25,
+           "misc":{}
+        },
+        {
+           "name":"Mole People",
+           "prob":6.25,
+           "misc":{}
+        },
+        {
+           "name":"The Communist International",
+           "prob":6.25,
+           "misc":{}
+        },
+        {
+           "name":"Fish People",
+           "prob":6.25,
+           "misc":{}
+        },
+        {
+           "name":"Creatures Out of Time",
+           "prob":6.25,
+           "misc":{}
+        },
+        {
+           "name":"The Deep State",
+           "prob":6.25,
+           "misc":{}
+        }
+     ]
+  },
+  "Group2":{
+     "default":"Group2",
+     "dependent":[
+
+     ],
+     "Group2":[
+        {
+           "name":"The FBI",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"The CIA",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"The Republicans",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"The Democrats",
+           "prob":4.35,
+           "misc":{}
+        }
+        ,
+        {
+           "name":"The Boy Scouts",
+           "prob":4.35,
+           "misc":{}
+        }
+        ,
+        {
+           "name":"The Girl Scouts",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"The Mainstream Media",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"Alex Jones",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"The Royal Family",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"The French Government",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"Airlines",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"The Car Industry",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"Big Tobbaco",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"The Oil Industry",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"The Catholic Church",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"Kindergarten Teachers",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"Elementry School Teachers",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"Middle School Teachers",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"High School Teachers",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"The FSB",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"The Chinese Government",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"Anarchists",
+           "prob":4.35,
+           "misc":{}
+        },
+        {
+           "name":"White Nationalists",
+           "prob":4.35,
+           "misc":{}
+        }
+     ]
+  },
+  "Working":{
+     "default":"word",
+     "dependent":[
+
+     ],
+     "word":[
+        {
+           "name":"working with",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"manipulating",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"pulling the strings of",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"infiltrating",
+           "prob":7.69,
+           "misc":{}
+        }
+        ,
+        {
+           "name":"Assimilating",
+           "prob":7.69,
+           "misc":{}
+        }
+        ,
+        {
+           "name":"colaberating with",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"collaberating with",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"controling",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"assisted by",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"hacking",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"controling",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"assisting",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"behind",
+           "prob":7.69,
+           "misc":{}
+        }
+     ]
+  },
+  "Action":{
+     "default":"action",
+     "dependent":[
+
+     ],
+     "action":[
+        {
+           "name":"put chemicals in the Water",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"spray chemtrails",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"use subliminal messaging",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"brainwash the youth",
+           "prob":7.69,
+           "misc":{}
+        }
+        ,
+        {
+           "name":"fix the election",
+           "prob":7.69,
+           "misc":{}
+        }
+        ,
+        {
+           "name":"start a war",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"sell urainium to terrorists",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"steal organs",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"drug the populace",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"collapse the banks",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"tank the economy",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"add fluride to the water",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"hide the shape of the earth",
+           "prob":7.69,
+           "misc":{}
+        }
+     ]
+  },
+  "Goal":{
+     "default":"goal",
+     "dependent":[
+
+     ],
+     "goal":[
+        {
+           "name":"turn the frogs gay",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"control the youth",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"take away our freedoms",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"end the american way of life",
+           "prob":7.69,
+           "misc":{}
+        }
+        ,
+        {
+           "name":"ressurect elvis",
+           "prob":7.69,
+           "misc":{}
+        }
+        ,
+        {
+           "name":"hide the truth",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"raise the dead",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"create a clone army",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"bring about the end times",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"trigger a super volcano",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"control the weather",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"ruin the environment",
+           "prob":7.69,
+           "misc":{}
+        },
+        {
+           "name":"control our thoughts",
+           "prob":7.69,
+           "misc":{}
+        }
+     ]
+  }
+
 }
