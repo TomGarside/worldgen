@@ -39,7 +39,6 @@ json11::Json gen_world::chooseRandItem(json11::Json inputProbmap){
 void gen_world::generate_world(){
     
     // iterate through all of the high level items
-    //outputJson["Seed"] = seed;
     std::map<std::string,json11::Json> topLevel = inputJson.object_items();
     for( auto const& pair : topLevel ){
         std::string defaultVal = pair.second["default"].string_value();

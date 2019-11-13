@@ -20,21 +20,27 @@ int main(int argc,char* const argv[]) {
     std::ifstream inFile;
     unsigned seed = unsigned(time(NULL)); // random seed for generation
     int arg;
+    bool debug = false;
+    bool print = false;
     std::string outfilename = "";
     
-    const char * args = "s:f:o:";
+    const char * args = "s:f:o:dp";
     while ((arg = getopt(argc, argv, args)) != -1) {
         switch (arg) {
             case 's':
                 seed = atoi(optarg);
                 break;
             case 'f':
-                std::cout<<"opening file :"<<optarg<<std::endl; // file path
                 inFile.open(optarg);
                 break;
             case 'o':
                 outfilename = optarg;
-                
+                break;
+            case 'd':
+                debug = true;
+                break;
+            case 'p':
+                print = true;
                 break;
                 
             default:
@@ -47,16 +53,18 @@ int main(int argc,char* const argv[]) {
         std::cout<<"no file provided"<<std::endl;
         return 0;
     }
-    
-    std::cout<<"seed is :"<<seed<<std::endl; // user specified seed
+    if (debug){
+        std::cout<<"opening file :"<<optarg<<std::endl; // file path
+        std::cout<<"seed is :"<<seed<<std::endl; // user specified seed
+    }
     
     std::stringstream strStream;
     strStream << inFile.rdbuf(); //read the file
     std::string str = strStream.str(); //str holds the content of the file
     
     gen_world generator = *new gen_world(str,seed);
-    
-   // std::cout<<generator.getOutput().dump()<<" "<<generator.geterr()<<std::endl;
+    if (print)
+        std::cout<<generator.getOutput().dump()<<" "<<generator.geterr()<<std::endl;
     
     if(outfilename!= ""){
         std::ofstream outfile;

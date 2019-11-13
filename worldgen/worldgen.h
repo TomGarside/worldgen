@@ -21,7 +21,6 @@ private:
     json11::Json inputJson;
     
     
-    
     std::string error;
 
     //generates output object
@@ -33,10 +32,9 @@ public:
     json11::Json::object outputJson;
     
     //constructor loads input str initializes building process and sets seed for random gen
-    gen_world(std::string inputJsonStr, unsigned seed = unsigned(time(NULL))){
+    gen_world(std::string inputJsonStr, int seed = int(time(NULL))){
         srand(seed);
         inputJson = json11::Json::parse(inputJsonStr, error);
-        //outputJson = json11::Json::object {{"Seed",seed},};
         gen_world::generate_world();
     }
     
